@@ -1,0 +1,192 @@
+---
+name: Vibrant Browser Gaming Hub
+colors:
+  surface: '#0b1326'
+  surface-dim: '#0b1326'
+  surface-bright: '#31394d'
+  surface-container-lowest: '#060e20'
+  surface-container-low: '#131b2e'
+  surface-container: '#171f33'
+  surface-container-high: '#222a3d'
+  surface-container-highest: '#2d3449'
+  on-surface: '#dae2fd'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dae2fd'
+  inverse-on-surface: '#283044'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#4cd7f6'
+  on-secondary: '#003640'
+  secondary-container: '#03b5d3'
+  on-secondary-container: '#00424e'
+  tertiary: '#ffb2b7'
+  on-tertiary: '#67001b'
+  tertiary-container: '#ff516a'
+  on-tertiary-container: '#5b0017'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#acedff'
+  secondary-fixed-dim: '#4cd7f6'
+  on-secondary-fixed: '#001f26'
+  on-secondary-fixed-variant: '#004e5c'
+  tertiary-fixed: '#ffdadb'
+  tertiary-fixed-dim: '#ffb2b7'
+  on-tertiary-fixed: '#40000d'
+  on-tertiary-fixed-variant: '#92002a'
+  background: '#0b1326'
+  on-background: '#dae2fd'
+  surface-variant: '#2d3449'
+typography:
+  headline-xl:
+    fontFamily: Rubik
+    fontSize: 48px
+    fontWeight: '700'
+    lineHeight: 56px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Rubik
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Rubik
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Rubik
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Rubik
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Rubik
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Rubik
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+  headline-lg-mobile:
+    fontFamily: Rubik
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  margin: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes an energetic, playful, and immersive browser gaming environment. Targeted at casual and competitive web gamers alike, the aesthetic evokes the excitement of arcade spaces combined with modern digital polish. 
+
+The visual language employs a high-energy dark mode approach characterized by deep, starry-night backgrounds contrasted with electric purple and neon cyan highlights. Playful glowing badges, rounded card surfaces, and vibrant accent colors create an inviting, dopamine-driven experience. The interface evokes a sense of fluid motion, quick response times, and sheer entertainment value, ensuring that game tiles and high-score elements command immediate attention.
+
+## Colors
+
+The palette is anchored by a deep space navy background (`#0f172a`) that provides exceptional contrast for luminous UI elements. 
+
+- **Primary (`#6366f1`):** Electric indigo used for core interactive elements, primary action buttons, and active states.
+- **Secondary (`#06b6d4`):** Neon cyan deployed for glowing highlights, progress indicators, and interactive badges.
+- **Tertiary (`#f43f5e`):** Vibrant coral reserved for urgent calls-to-action, live player counts, and alert states.
+- **Accent (`#f59e0b`):** Sunny yellow utilized for achievements, ratings, and star badges.
+- **Neutrals:** Carefully stepped slate grays (`#1e293b` for surfaces, `#94a3b8` for secondary text, and `#f8fafc` for primary text) ensure readability across high-density layouts.
+
+## Typography
+
+Typography balances playful character with crisp readability. **Rubik** is selected for headlines and labels due to its friendly, rounded geometric structure, injecting subtle charm into game titles and category headers. **Inter** serves as the body font, providing ultra-clean legibility for game descriptions, chat feeds, and dense HUD elements. 
+
+Ensure that large headlines scale down gracefully on mobile viewports to prevent awkward text wrapping, utilizing `headline-lg-mobile` for viewports under 640px.
+
+## Layout & Spacing
+
+The design system employs a 12-column fluid grid system optimized for high-density game discovery interfaces. 
+
+- **Gutters:** Standardized at 24px (`1.5rem`) to ensure clear separation between game cards without feeling disconnected.
+- **Margins:** Outer canvas margins scale from 16px on mobile to 32px on desktop viewports.
+- **Rhythm:** Spacing tokens follow an 8px base scale, driving consistent component padding and element grouping. Game card grids automatically reflow from 1 column on mobile, to 2-3 columns on tablets, and up to 4-5 columns on expansive desktop displays.
+
+## Elevation & Depth
+
+Depth is communicated through glowing, ambient shadows and layered translucent surfaces to mimic high-end gaming hardware interfaces. 
+
+- **Surface Tiers:** Backgrounds start at the deep space navy canvas, with cards resting on elevated slate surfaces (`#1e293b`).
+- **Glow Effects:** Interactive states and featured game tiles utilize diffused, low-opacity colored shadows (e.g., a cyan or indigo glow) to create an illuminated, floating appearance against the dark void.
+- **Borders:** Subtle, low-contrast ghost borders (`rgba(255, 255, 255, 0.08)`) define boundaries without harshness, while hover states transition to bright neon outlines.
+
+## Shapes
+
+A friendly, rounded shape language (`roundedness: 2`) defines the UI, utilizing generous corner radii to mirror contemporary gaming hardware and console interfaces. 
+
+- **Standard Elements:** Buttons, inputs, and chips feature a baseline `0.5rem` border radius.
+- **Containers:** Game cards and modal containers utilize `rounded-lg` (`1rem`) and `rounded-xl` (`1.5rem`) to create soft, approachable bounds that frame rich visual game assets.
+- **Badges & Pills:** Fully rounded pill shapes (`9999px`) are used exclusively for tags, player counters, and status indicators.
+
+## Components
+
+### Buttons
+Primary action buttons feature solid electric indigo (`#6366f1`) backgrounds with rounded corners, subtle scaling on hover, and a soft primary-color glow. Secondary buttons use ghost styling with neon cyan borders that fill on interaction.
+
+### Chips & Tags
+Compact, pill-shaped indicators utilized for game genres (e.g., "Action", "Puzzle"). Active filters glow with neon cyan accents against dark slate containers.
+
+### Input Fields
+Dark slate input wells (`#1e293b`) with crisp neon cyan focus rings and placeholder text in muted slate (`#94a3b8`). Designed for search bars, chat inputs, and user settings.
+
+### Checkboxes & Radio Buttons
+Custom toggle controls with rounded geometry. Checked states burst into vibrant cyan or coral, featuring smooth spring animations on toggle.
+
+### Cards
+Game discovery tiles feature rich media aspect ratios, rounded corners (`1.5rem`), and floating badge overlays for ratings and active player counts. On hover, cards lift subtly with an ambient neon glow.
+
+### Additional Components
+- **Live Player Badges:** Pulsing coral dots indicating real-time activity.
+- **Leaderboard Podiums:** Specialized list rows with metallic and glowing accent treatments for top-ranking scores.
+- **Quick-Launch Floating Action Bar:** Fixed bottom utility dock for instant game muting, favoriting, and full-screen toggling.

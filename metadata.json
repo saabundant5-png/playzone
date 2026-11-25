@@ -1,0 +1,6 @@
+{
+  "name": "PlayZone",
+  "description": "Vibrant browser gaming hub with instant single-player and arcade games, live local leaderboards, and solo challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
